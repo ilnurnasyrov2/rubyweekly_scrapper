@@ -1,0 +1,299 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://rubyweekly.com/issues
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - rubyweekly.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - text/html;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Date:
+      - Fri, 07 Sep 2018 10:39:35 GMT
+      Set-Cookie:
+      - rack.session=BAh7CUkiD3Nlc3Npb25faWQGOgZFVEkiRTBhYmZhN2I1OWRkMDJiNGM2YWQw%0ANjNkNWM2NTQ2MmY1ZGVkMjA1MTdlNWY1YWM1ZGM2YmY4ZDBjNzE3Yzk3YTYG%0AOwBGSSIJY3NyZgY7AEZJIjFqR2U4T1F5SXIyVnlJTHpJUGlUYmd6RkZzY1RF%0AenI5RU0xMXFPWVpGOWRVPQY7AEZJIg10cmFja2luZwY7AEZ7B0kiFEhUVFBf%0AVVNFUl9BR0VOVAY7AFRJIi0xOGU0MGUxNDAxZWVmNjdlMWFlNjllZmFiMDlh%0AZmI3MWY4N2ZmYjgxBjsARkkiGUhUVFBfQUNDRVBUX0xBTkdVQUdFBjsAVEki%0ALWRhMzlhM2VlNWU2YjRiMGQzMjU1YmZlZjk1NjAxODkwYWZkODA3MDkGOwBG%0ASSIOX19GTEFTSF9fBjsARnsA%0A--5f0e9097d80793d001b4ecf3a87cb937c2abccb0;
+        path=/; HttpOnly
+      X-Powered-By:
+      - Phusion Passenger 5.1.1
+      Server:
+      - nginx/1.10.2 + Phusion Passenger 5.1.1
+    body:
+      encoding: ASCII-8BIT
+      string: "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\">\n
+        \ <title>Ruby Weekly Archives</title>\n  <meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1\" />\n  <link rel=\"stylesheet\" href=\"/css/app.css\">\n
+        \ <link rel=\"alternate\" type=\"application/rss+xml\" title=\"Ruby Weekly\"
+        href=\"/rss/23of9g7e\">\n  <link rel=\"shortcut icon\" href=\"/favicon.png\">\n</head>\n<body
+        class=\"rw dom dom-rw issues issues\">\n  <header class=\"contained\">\n    <nav>\n
+        \   <div class=\"sitename\" style=\"cursor: pointer\" onclick=\"window.location.href='/'\"><a
+        href=\"/\">Ruby Weekly</a></div>\n\n    <div class=\"items\">\n        \n
+        \           <a href=\"/issues\" class=\"issues\">Archives</a><span class=\"divider\">|</span>\n
+        \           <a href=\"/latest\" class=\"latest\">Latest</a><span class=\"nomobile\"><span
+        class=\"divider\">|</span>\n            <a href=\"/rss/11hh2d19\">RSS</a></span>\n
+        \       \n    </div>\n  </nav>\n\n  \n</header>\n\n  <main>\n<section class=\"contained\">\n\n<!--
+        div class=\"floatingsearch\"><form class=\"search\" method=\"get\" action=\"/search\">\n<input
+        type=\"text\" class=\"q\" name=\"q\" value=\"\"  placeholder=\"Search\" size=\"20\"
+        />\n<input type=\"hidden\" name=\"pub\" value=\"rw\" />\n<button class=\"submit
+        awesome\">Search</button>\n</form>\n</div -->\n<h1>Archives</h1>\n\n<div class=\"issues\">\n<div
+        class=\"issue\"><a href=\"issues/415\">Issue #415</a> &mdash; September  6,
+        2018</div>\n<div class=\"issue\"><a href=\"issues/414\">Issue #414</a> &mdash;
+        August 30, 2018</div>\n<div class=\"issue\"><a href=\"issues/413\">Issue #413</a>
+        &mdash; August 23, 2018</div>\n<div class=\"issue\"><a href=\"issues/412\">Issue
+        #412</a> &mdash; August 16, 2018</div>\n<div class=\"issue\"><a href=\"issues/411\">Issue
+        #411</a> &mdash; August 9, 2018</div>\n<div class=\"issue\"><a href=\"issues/410\">Issue
+        #410</a> &mdash; August  2, 2018</div>\n<div class=\"issue\"><a href=\"issues/409\">Issue
+        #409</a> &mdash; July 26, 2018</div>\n<div class=\"issue\"><a href=\"issues/408\">Issue
+        #408</a> &mdash; July 19, 2018</div>\n<div class=\"issue\"><a href=\"issues/407\">Issue
+        #407</a> &mdash; July 12, 2018</div>\n<div class=\"issue\"><a href=\"issues/406\">Issue
+        #406</a> &mdash; July  5, 2018</div>\n<div class=\"issue\"><a href=\"issues/405\">Issue
+        #405</a> &mdash; June 28, 2018</div>\n<div class=\"issue\"><a href=\"issues/404\">Issue
+        #404</a> &mdash; June 21, 2018</div>\n<div class=\"issue\"><a href=\"issues/403\">Issue
+        #403</a> &mdash; June 14, 2018</div>\n<div class=\"issue\"><a href=\"issues/402\">Issue
+        #402</a> &mdash; June  7, 2018</div>\n<div class=\"issue\"><a href=\"issues/401\">Issue
+        #401</a> &mdash; May 31, 2018</div>\n<div class=\"issue\"><a href=\"issues/400\">Issue
+        #400</a> &mdash; May 24, 2018</div>\n<div class=\"issue\"><a href=\"issues/399\">Issue
+        #399</a> &mdash; May 17, 2018</div>\n<div class=\"issue\"><a href=\"issues/398\">Issue
+        #398</a> &mdash; May 10, 2018</div>\n<div class=\"issue\"><a href=\"issues/397\">Issue
+        #397</a> &mdash; May  3, 2018</div>\n<div class=\"issue\"><a href=\"issues/396\">Issue
+        #396</a> &mdash; April 26, 2018</div>\n<div class=\"issue\"><a href=\"issues/395\">Issue
+        #395</a> &mdash; April 19, 2018</div>\n<div class=\"issue\"><a href=\"issues/394\">Issue
+        #394</a> &mdash; April 12, 2018</div>\n<div class=\"issue\"><a href=\"issues/393\">Issue
+        #393</a> &mdash; April  5, 2018</div>\n<div class=\"issue\"><a href=\"issues/392\">Issue
+        #392</a> &mdash; March 29, 2018</div>\n<div class=\"issue\"><a href=\"issues/391\">Issue
+        #391</a> &mdash; March 22, 2018</div>\n<div class=\"issue\"><a href=\"issues/390\">Issue
+        #390</a> &mdash; March 15, 2018</div>\n<div class=\"issue\"><a href=\"issues/389\">Issue
+        #389</a> &mdash; March  8, 2018</div>\n<div class=\"issue\"><a href=\"issues/388\">Issue
+        #388</a> &mdash; March  1, 2018</div>\n<div class=\"issue\"><a href=\"issues/387\">Issue
+        #387</a> &mdash; February 22, 2018</div>\n<div class=\"issue\"><a href=\"issues/386\">Issue
+        #386</a> &mdash; February 15, 2018</div>\n<div class=\"issue\"><a href=\"issues/385\">Issue
+        #385</a> &mdash; February  8, 2018</div>\n<div class=\"issue\"><a href=\"issues/384\">Issue
+        #384</a> &mdash; February  1, 2018</div>\n<div class=\"issue\"><a href=\"issues/383\">Issue
+        #383</a> &mdash; January 25, 2018</div>\n<div class=\"issue\"><a href=\"issues/382\">Issue
+        #382</a> &mdash; January 18, 2018</div>\n<div class=\"issue\"><a href=\"issues/381\">Issue
+        #381</a> &mdash; January 11, 2018</div>\n<div class=\"issue\"><a href=\"issues/380\">Issue
+        #380</a> &mdash; December 21, 2017</div>\n<div class=\"issue\"><a href=\"issues/379\">Issue
+        #379</a> &mdash; December 14, 2017</div>\n<div class=\"issue\"><a href=\"issues/378\">Issue
+        #378</a> &mdash; December 7, 2017</div>\n<div class=\"issue\"><a href=\"issues/377\">Issue
+        #377</a> &mdash; November 30, 2017</div>\n<div class=\"issue\"><a href=\"issues/376\">Issue
+        #376</a> &mdash; November 23, 2017</div>\n<div class=\"issue\"><a href=\"issues/375\">Issue
+        #375</a> &mdash; November 16, 2017</div>\n<div class=\"issue\"><a href=\"issues/374\">Issue
+        #374</a> &mdash; November  9, 2017</div>\n<div class=\"issue\"><a href=\"issues/373\">Issue
+        #373</a> &mdash; November  2, 2017</div>\n<div class=\"issue\"><a href=\"issues/372\">Issue
+        #372</a> &mdash; October 26, 2017</div>\n<div class=\"issue\"><a href=\"issues/371\">Issue
+        #371</a> &mdash; October 19, 2017</div>\n<div class=\"issue\"><a href=\"issues/370\">Issue
+        #370</a> &mdash; October 12, 2017</div>\n<div class=\"issue\"><a href=\"issues/369\">Issue
+        #369</a> &mdash; October  5, 2017</div>\n<div class=\"issue\"><a href=\"issues/368\">Issue
+        #368</a> &mdash; September 28, 2017</div>\n<div class=\"issue\"><a href=\"issues/367\">Issue
+        #367</a> &mdash; September 21, 2017</div>\n<div class=\"issue\"><a href=\"issues/366\">Issue
+        #366</a> &mdash; September 14, 2017</div>\n<div class=\"issue\"><a href=\"issues/365\">Issue
+        #365</a> &mdash; September  7, 2017</div>\n<div class=\"issue\"><a href=\"issues/364\">Issue
+        #364</a> &mdash; August 31, 2017</div>\n<div class=\"issue\"><a href=\"issues/363\">Issue
+        #363</a> &mdash; August 24, 2017</div>\n<div class=\"issue\"><a href=\"issues/362\">Issue
+        #362</a> &mdash; August 17, 2017</div>\n<div class=\"issue\"><a href=\"issues/361\">Issue
+        #361</a> &mdash; August 10, 2017</div>\n<div class=\"issue\"><a href=\"issues/360\">Issue
+        #360</a> &mdash; August  3, 2017</div>\n<div class=\"issue\"><a href=\"issues/359\">Issue
+        #359</a> &mdash; July 27, 2017</div>\n<div class=\"issue\"><a href=\"issues/358\">Issue
+        #358</a> &mdash; July 20, 2017</div>\n<div class=\"issue\"><a href=\"issues/357\">Issue
+        #357</a> &mdash; July 13, 2017</div>\n<div class=\"issue\"><a href=\"issues/356\">Issue
+        #356</a> &mdash; July  6, 2017</div>\n<div class=\"issue\"><a href=\"issues/355\">Issue
+        #355</a> &mdash; June 29, 2017</div>\n<div class=\"issue\"><a href=\"issues/354\">Issue
+        #354</a> &mdash; June 22, 2017</div>\n<div class=\"issue\"><a href=\"issues/353\">Issue
+        #353</a> &mdash; June 15, 2017</div>\n<div class=\"issue\"><a href=\"issues/352\">Issue
+        #352</a> &mdash; June  8, 2017</div>\n<div class=\"issue\"><a href=\"issues/351\">Issue
+        #351</a> &mdash; June  1, 2017</div>\n<div class=\"issue\"><a href=\"issues/350\">Issue
+        #350</a> &mdash; May 25, 2017</div>\n<div class=\"issue\"><a href=\"issues/349\">Issue
+        #349</a> &mdash; May 18, 2017</div>\n<div class=\"issue\"><a href=\"issues/348\">Issue
+        #348</a> &mdash; May 11, 2017</div>\n<div class=\"issue\"><a href=\"issues/347\">Issue
+        #347</a> &mdash; May  4, 2017</div>\n<div class=\"issue\"><a href=\"issues/346\">Issue
+        #346</a> &mdash; April 27, 2017</div>\n<div class=\"issue\"><a href=\"issues/345\">Issue
+        #345</a> &mdash; April 20, 2017</div>\n<div class=\"issue\"><a href=\"issues/344\">Issue
+        #344</a> &mdash; April 13, 2017</div>\n<div class=\"issue\"><a href=\"issues/343\">Issue
+        #343</a> &mdash; April 6, 2017</div>\n<div class=\"issue\"><a href=\"issues/342\">Issue
+        #342</a> &mdash; March 30, 2017</div>\n<div class=\"issue\"><a href=\"issues/341\">Issue
+        #341</a> &mdash; March 23, 2017</div>\n<div class=\"issue\"><a href=\"issues/340\">Issue
+        #340</a> &mdash; March 16, 2017</div>\n<div class=\"issue\"><a href=\"issues/339\">Issue
+        #339</a> &mdash; March  9, 2017</div>\n<div class=\"issue\"><a href=\"issues/338\">Issue
+        #338</a> &mdash; March  2, 2017</div>\n<div class=\"issue\"><a href=\"issues/337\">Issue
+        #337</a> &mdash; February 23, 2017</div>\n<div class=\"issue\"><a href=\"issues/336\">Issue
+        #336</a> &mdash; February 16, 2017</div>\n<div class=\"issue\"><a href=\"issues/335\">Issue
+        #335</a> &mdash; February  9, 2017</div>\n<div class=\"issue\"><a href=\"issues/334\">Issue
+        #334</a> &mdash; February  2, 2017</div>\n<div class=\"issue\"><a href=\"issues/333\">Issue
+        #333</a> &mdash; January 26, 2017</div>\n<div class=\"issue\"><a href=\"issues/332\">Issue
+        #332</a> &mdash; January 19, 2017</div>\n<div class=\"issue\"><a href=\"issues/331\">Issue
+        #331</a> &mdash; January 12, 2017</div>\n<div class=\"issue\"><a href=\"issues/330\">Issue
+        #330</a> &mdash; January  5, 2017</div>\n<div class=\"issue\"><a href=\"issues/329\">Issue
+        #329</a> &mdash; December 22, 2016</div>\n<div class=\"issue\"><a href=\"issues/328\">Issue
+        #328</a> &mdash; December 15, 2016</div>\n<div class=\"issue\"><a href=\"issues/327\">Issue
+        #327</a> &mdash; December  8, 2016</div>\n<div class=\"issue\"><a href=\"issues/326\">Issue
+        #326</a> &mdash; December  1, 2016</div>\n<div class=\"issue\"><a href=\"issues/325\">Issue
+        #325</a> &mdash; November 24, 2016</div>\n<div class=\"issue\"><a href=\"issues/324\">Issue
+        #324</a> &mdash; November 17, 2016</div>\n<div class=\"issue\"><a href=\"issues/323\">Issue
+        #323</a> &mdash; November 10, 2016</div>\n<div class=\"issue\"><a href=\"issues/322\">Issue
+        #322</a> &mdash; November  3, 2016</div>\n<div class=\"issue\"><a href=\"issues/321\">Issue
+        #321</a> &mdash; October 27, 2016</div>\n<div class=\"issue\"><a href=\"issues/320\">Issue
+        #320</a> &mdash; October 20, 2016</div>\n<div class=\"issue\"><a href=\"issues/319\">Issue
+        #319</a> &mdash; October 13, 2016</div>\n<div class=\"issue\"><a href=\"issues/318\">Issue
+        #318</a> &mdash; October  6, 2016</div>\n<div class=\"issue\"><a href=\"issues/317\">Issue
+        #317</a> &mdash; September 29, 2016</div>\n<div class=\"issue\"><a href=\"issues/316\">Issue
+        #316</a> &mdash; September 22, 2016</div>\n<div class=\"issue\"><a href=\"issues/315\">Issue
+        #315</a> &mdash; September 15, 2016</div>\n<div class=\"issue\"><a href=\"issues/314\">Issue
+        #314</a> &mdash; September 8, 2016</div>\n<div class=\"issue\"><a href=\"issues/313\">Issue
+        #313</a> &mdash; September  1, 2016</div>\n<div class=\"issue\"><a href=\"issues/312\">Issue
+        #312</a> &mdash; August 25, 2016</div>\n<div class=\"issue\"><a href=\"issues/311\">Issue
+        #311</a> &mdash; August 18, 2016</div>\n<div class=\"issue\"><a href=\"issues/310\">Issue
+        #310</a> &mdash; August 11, 2016</div>\n<div class=\"issue\"><a href=\"issues/309\">Issue
+        #309</a> &mdash; August  4, 2016</div>\n<div class=\"issue\"><a href=\"issues/308\">Issue
+        #308</a> &mdash; July 28, 2016</div>\n<div class=\"issue\"><a href=\"issues/307\">Issue
+        #307</a> &mdash; July 21, 2016</div>\n<div class=\"issue\"><a href=\"issues/306\">Issue
+        #306</a> &mdash; July 14, 2016</div>\n<div class=\"issue\"><a href=\"issues/305\">Issue
+        #305</a> &mdash; July 7, 2016</div>\n<div class=\"issue\"><a href=\"issues/304\">Issue
+        #304</a> &mdash; July  1, 2016</div>\n<div class=\"issue\"><a href=\"issues/303\">Issue
+        #303</a> &mdash; June 23, 2016</div>\n<div class=\"issue\"><a href=\"issues/302\">Issue
+        #302</a> &mdash; June 16, 2016</div>\n<div class=\"issue\"><a href=\"issues/301\">Issue
+        #301</a> &mdash; June  9, 2016</div>\n<div class=\"issue\"><a href=\"issues/300\">Issue
+        #300</a> &mdash; June  2, 2016</div>\n<div class=\"issue\"><a href=\"issues/299\">Issue
+        #299</a> &mdash; May 26, 2016</div>\n<div class=\"issue\"><a href=\"issues/298\">Issue
+        #298</a> &mdash; May 19, 2016</div>\n<div class=\"issue\"><a href=\"issues/297\">Issue
+        #297</a> &mdash; May 12, 2016</div>\n<div class=\"issue\"><a href=\"issues/296\">Issue
+        #296</a> &mdash; May  5, 2016</div>\n<div class=\"issue\"><a href=\"issues/295\">Issue
+        #295</a> &mdash; April 28, 2016</div>\n<div class=\"issue\"><a href=\"issues/294\">Issue
+        #294</a> &mdash; April 21, 2016</div>\n<div class=\"issue\"><a href=\"issues/293\">Issue
+        #293</a> &mdash; April 14, 2016</div>\n<div class=\"issue\"><a href=\"issues/292\">Issue
+        #292</a> &mdash; April  7, 2016</div>\n<div class=\"issue\"><a href=\"issues/291\">Issue
+        #291</a> &mdash; March 31, 2016</div>\n<div class=\"issue\"><a href=\"issues/290\">Issue
+        #290</a> &mdash; March 23, 2016</div>\n<div class=\"issue\"><a href=\"issues/289\">Issue
+        #289</a> &mdash; March 17, 2016</div>\n<div class=\"issue\"><a href=\"issues/288\">Issue
+        #288</a> &mdash; March 11, 2016</div>\n<div class=\"issue\"><a href=\"issues/287\">Issue
+        #287</a> &mdash; March  3, 2016</div>\n<div class=\"issue\"><a href=\"issues/286\">Issue
+        #286</a> &mdash; February 25, 2016</div>\n<div class=\"issue\"><a href=\"issues/285\">Issue
+        #285</a> &mdash; February 18, 2016</div>\n<div class=\"issue\"><a href=\"issues/284\">Issue
+        #284</a> &mdash; February 11, 2016</div>\n<div class=\"issue\"><a href=\"issues/283\">Issue
+        #283</a> &mdash; February  4, 2016</div>\n<div class=\"issue\"><a href=\"issues/282\">Issue
+        #282</a> &mdash; January 28, 2016</div>\n<div class=\"issue\"><a href=\"issues/281\">Issue
+        #281</a> &mdash; January 21, 2016</div>\n<div class=\"issue\"><a href=\"issues/280\">Issue
+        #280</a> &mdash; January 14, 2016</div>\n<div class=\"issue\"><a href=\"issues/279\">Issue
+        #279</a> &mdash; January 7, 2016</div>\n<div class=\"issue\"><a href=\"issues/278\">Issue
+        #278</a> &mdash; December 31, 2015</div>\n<div class=\"issue\"><a href=\"issues/277\">Issue
+        #277</a> &mdash; December 17, 2015</div>\n<div class=\"issue\"><a href=\"issues/276\">Issue
+        #276</a> &mdash; December 10, 2015</div>\n<div class=\"issue\"><a href=\"issues/275\">Issue
+        #275</a> &mdash; December  3, 2015</div>\n<div class=\"issue\"><a href=\"issues/274\">Issue
+        #274</a> &mdash; November 26, 2015</div>\n<div class=\"issue\"><a href=\"issues/273\">Issue
+        #273</a> &mdash; November 19, 2015</div>\n<div class=\"issue\"><a href=\"issues/272\">Issue
+        #272</a> &mdash; November 12, 2015</div>\n<div class=\"issue\"><a href=\"issues/271\">Issue
+        #271</a> &mdash; November  5, 2015</div>\n<div class=\"issue\"><a href=\"issues/270\">Issue
+        #270</a> &mdash; October 29, 2015</div>\n<div class=\"issue\"><a href=\"issues/269\">Issue
+        #269</a> &mdash; October 22, 2015</div>\n<div class=\"issue\"><a href=\"issues/268\">Issue
+        #268</a> &mdash; October 15, 2015</div>\n<div class=\"issue\"><a href=\"issues/267\">Issue
+        #267</a> &mdash; October  8, 2015</div>\n<div class=\"issue\"><a href=\"issues/266\">Issue
+        #266</a> &mdash; October  1, 2015</div>\n<div class=\"issue\"><a href=\"issues/265\">Issue
+        #265</a> &mdash; September 24, 2015</div>\n<div class=\"issue\"><a href=\"issues/264\">Issue
+        #264</a> &mdash; September 17, 2015</div>\n<div class=\"issue\"><a href=\"issues/263\">Issue
+        #263</a> &mdash; September 10, 2015</div>\n<div class=\"issue\"><a href=\"issues/262\">Issue
+        #262</a> &mdash; September 3, 2015</div>\n<div class=\"issue\"><a href=\"issues/261\">Issue
+        #261</a> &mdash; August 27, 2015</div>\n<div class=\"issue\"><a href=\"issues/260\">Issue
+        #260</a> &mdash; August 20, 2015</div>\n<div class=\"issue\"><a href=\"issues/259\">Issue
+        #259</a> &mdash; August 13, 2015</div>\n<div class=\"issue\"><a href=\"issues/258\">Issue
+        #258</a> &mdash; August 6, 2015</div>\n<div class=\"issue\"><a href=\"issues/257\">Issue
+        #257</a> &mdash; July 30, 2015</div>\n<div class=\"issue\"><a href=\"issues/256\">Issue
+        #256</a> &mdash; July 23, 2015</div>\n<div class=\"issue\"><a href=\"issues/255\">Issue
+        #255</a> &mdash; July 16, 2015</div>\n<div class=\"issue\"><a href=\"issues/254\">Issue
+        #254</a> &mdash; July  9, 2015</div>\n<div class=\"issue\"><a href=\"issues/253\">Issue
+        #253</a> &mdash; July  2, 2015</div>\n<div class=\"issue\"><a href=\"issues/252\">Issue
+        #252</a> &mdash; June 25, 2015</div>\n<div class=\"issue\"><a href=\"issues/251\">Issue
+        #251</a> &mdash; June 18, 2015</div>\n<div class=\"issue\"><a href=\"issues/250\">Issue
+        #250</a> &mdash; June 11, 2015</div>\n<div class=\"issue\"><a href=\"issues/249\">Issue
+        #249</a> &mdash; June  4, 2015</div>\n<div class=\"issue\"><a href=\"issues/248\">Issue
+        #248</a> &mdash; May 28, 2015</div>\n<div class=\"issue\"><a href=\"issues/247\">Issue
+        #247</a> &mdash; May 21, 2015</div>\n<div class=\"issue\"><a href=\"issues/246\">Issue
+        #246</a> &mdash; May 14, 2015</div>\n<div class=\"issue\"><a href=\"issues/245\">Issue
+        #245</a> &mdash; May  7, 2015</div>\n<div class=\"issue\"><a href=\"issues/244\">Issue
+        #244</a> &mdash; April 30, 2015</div>\n<div class=\"issue\"><a href=\"issues/243\">Issue
+        #243</a> &mdash; April 23, 2015</div>\n<div class=\"issue\"><a href=\"issues/242\">Issue
+        #242</a> &mdash; April 16, 2015</div>\n<div class=\"issue\"><a href=\"issues/241\">Issue
+        #241</a> &mdash; April  9, 2015</div>\n<div class=\"issue\"><a href=\"issues/240\">Issue
+        #240</a> &mdash; April  2, 2015</div>\n<div class=\"issue\"><a href=\"issues/239\">Issue
+        #239</a> &mdash; March 26, 2015</div>\n<div class=\"issue\"><a href=\"issues/238\">Issue
+        #238</a> &mdash; March 19, 2015</div>\n<div class=\"issue\"><a href=\"issues/237\">Issue
+        #237</a> &mdash; March 12, 2015</div>\n<div class=\"issue\"><a href=\"issues/236\">Issue
+        #236</a> &mdash; March  5, 2015</div>\n<div class=\"issue\"><a href=\"issues/235\">Issue
+        #235</a> &mdash; February 25, 2015</div>\n<div class=\"issue\"><a href=\"issues/234\">Issue
+        #234</a> &mdash; February 19, 2015</div>\n<div class=\"issue\"><a href=\"issues/233\">Issue
+        #233</a> &mdash; February 12, 2015</div>\n<div class=\"issue\"><a href=\"issues/232\">Issue
+        #232</a> &mdash; February  5, 2015</div>\n<div class=\"issue\"><a href=\"issues/231\">Issue
+        #231</a> &mdash; January 29, 2015</div>\n<div class=\"issue\"><a href=\"issues/230\">Issue
+        #230</a> &mdash; January 22, 2015</div>\n<div class=\"issue\"><a href=\"issues/229\">Issue
+        #229</a> &mdash; January 15, 2015</div>\n<div class=\"issue\"><a href=\"issues/228\">Issue
+        #228</a> &mdash; January 8, 2015</div>\n<div class=\"issue\"><a href=\"issues/227\">Issue
+        #227</a> &mdash; January 1, 2015</div>\n<div class=\"issue\"><a href=\"issues/226\">Issue
+        #226</a> &mdash; December 18, 2014</div>\n<div class=\"issue\"><a href=\"issues/225\">Issue
+        #225</a> &mdash; December 11, 2014</div>\n<div class=\"issue\"><a href=\"issues/224\">Issue
+        #224</a> &mdash; December 5, 2014</div>\n<div class=\"issue\"><a href=\"issues/223\">Issue
+        #223</a> &mdash; November 27, 2014</div>\n<div class=\"issue\"><a href=\"issues/222\">Issue
+        #222</a> &mdash; November 20, 2014</div>\n<div class=\"issue\"><a href=\"issues/221\">Issue
+        #221</a> &mdash; November 13, 2014</div>\n<div class=\"issue\"><a href=\"issues/220\">Issue
+        #220</a> &mdash; November 6, 2014</div>\n<div class=\"issue\"><a href=\"issues/219\">Issue
+        #219</a> &mdash; October 30, 2014</div>\n<div class=\"issue\"><a href=\"issues/218\">Issue
+        #218</a> &mdash; October 23, 2014</div>\n<div class=\"issue\"><a href=\"issues/217\">Issue
+        #217</a> &mdash; October 16, 2014</div>\n<div class=\"issue\"><a href=\"issues/216\">Issue
+        #216</a> &mdash; October  9, 2014</div>\n<div class=\"issue\"><a href=\"issues/215\">Issue
+        #215</a> &mdash; October  2, 2014</div>\n<div class=\"issue\"><a href=\"issues/214\">Issue
+        #214</a> &mdash; September 25, 2014</div>\n<div class=\"issue\"><a href=\"issues/213\">Issue
+        #213</a> &mdash; September 18, 2014</div>\n<div class=\"issue\"><a href=\"issues/212\">Issue
+        #212</a> &mdash; September 11, 2014</div>\n<div class=\"issue\"><a href=\"issues/211\">Issue
+        #211</a> &mdash; September  4, 2014</div>\n<div class=\"issue\"><a href=\"issues/210\">Issue
+        #210</a> &mdash; August 28, 2014</div>\n<div class=\"issue\"><a href=\"issues/209\">Issue
+        #209</a> &mdash; August 21, 2014</div>\n<div class=\"issue\"><a href=\"issues/208\">Issue
+        #208</a> &mdash; August 14, 2014</div>\n<div class=\"issue\"><a href=\"issues/207\">Issue
+        #207</a> &mdash; August 7, 2014</div>\n<div class=\"issue\"><a href=\"issues/206\">Issue
+        #206</a> &mdash; July 30, 2014</div>\n<div class=\"issue\"><a href=\"issues/205\">Issue
+        #205</a> &mdash; July 24, 2014</div>\n<div class=\"issue\"><a href=\"issues/204\">Issue
+        #204</a> &mdash; July 17, 2014</div>\n<div class=\"issue\"><a href=\"issues/203\">Issue
+        #203</a> &mdash; July 10, 2014</div>\n<div class=\"issue\"><a href=\"issues/202\">Issue
+        #202</a> &mdash; July 3, 2014</div>\n<div class=\"issue\"><a href=\"issues/201\">Issue
+        #201</a> &mdash; June 26, 2014</div>\n<div class=\"issue\"><a href=\"issues/200\">Issue
+        #200</a> &mdash; June 20, 2014</div>\n<div class=\"issue\"><a href=\"issues/199\">Issue
+        #199</a> &mdash; June 12, 2014</div>\n<div class=\"issue\"><a href=\"issues/198\">Issue
+        #198</a> &mdash; June 5, 2014</div>\n<div class=\"issue\"><a href=\"issues/197\">Issue
+        #197</a> &mdash; May 29, 2014</div>\n<div class=\"issue\"><a href=\"issues/196\">Issue
+        #196</a> &mdash; May 22, 2014</div>\n<div class=\"issue\"><a href=\"issues/195\">Issue
+        #195</a> &mdash; May 15, 2014</div>\n<div class=\"issue\"><a href=\"issues/194\">Issue
+        #194</a> &mdash; May  8, 2014</div>\n<div class=\"issue\"><a href=\"issues/193\">Issue
+        #193</a> &mdash; May  1, 2014</div>\n<div class=\"issue\"><a href=\"issues/192\">Issue
+        #192</a> &mdash; April 24, 2014</div>\n<div class=\"issue\"><a href=\"issues/191\">Issue
+        #191</a> &mdash; April 17, 2014</div>\n<div class=\"issue\"><a href=\"issues/190\">Issue
+        #190</a> &mdash; April 10, 2014</div>\n</div>\n\n</section>\n</main>\n  \n
+        \ <script src=\"/js/app.js\"></script>\n  <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+        Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-32535004-4','rubyweekly.com');ga('send',
+        'pageview');\n</script>\n<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1213763378662807'); fbq('track', 'PageView');</script><noscript><img
+        height=\"1\" width=\"1\" style=\"display:none\" src=\"https://www.facebook.com/tr?id=1213763378662807&ev=PageView&noscript=1\"
+        /></noscript>\n\n</body>\n</html>\n"
+    http_version: 
+  recorded_at: Fri, 07 Sep 2018 10:39:35 GMT
+recorded_with: VCR 4.0.0
