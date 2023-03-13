@@ -6,7 +6,7 @@ require "nokogiri"
 
 class RubyweeklyScrapper::ScrapIndex
   def call(url:)
-    document = Nokogiri::HTML(open(url))
+    document = Nokogiri::HTML(URI.open(url))
 
     document.css(".issue").map do |issue|
       issue_url = URI(url)
