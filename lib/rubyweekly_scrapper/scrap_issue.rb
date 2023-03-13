@@ -6,7 +6,7 @@ require "nokogiri"
 
 class RubyweeklyScrapper::ScrapIssue
   def call(url:)
-    document = Nokogiri::HTML(open(url))
+    document = Nokogiri::HTML(URI.open(url))
 
     type = "general"
 
